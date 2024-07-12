@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    var viewmodel: LearnerDatabaseProtocol = SampleLearnerViewModel()
+    
     var body: some View {
+        Text("Git Pull")
+        
+        
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
