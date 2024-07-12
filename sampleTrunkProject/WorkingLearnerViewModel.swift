@@ -9,6 +9,7 @@ import Foundation
 
 class WorkingLearnerViewModel: LearnerDatabaseProtocol {
     func getLearnerBy(id: Int) -> Bool {
+        print("testing")
         return true
     }
     
